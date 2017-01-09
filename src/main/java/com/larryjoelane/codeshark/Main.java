@@ -5,6 +5,7 @@
  */
 package com.larryjoelane.codeshark;
 
+
 /**
  *
  * @author Larry J Lane
@@ -12,8 +13,12 @@ package com.larryjoelane.codeshark;
 public class Main {
     
     public static void main(String[] args) {
+          
+          //uncomment when browser implementation is stable
+//        Browser browser = new Browser();
+//        browser.show();
         
-        System.out.print("code-shark started");
+        System.out.println("code-shark started");
         
     }
    
